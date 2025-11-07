@@ -5,3 +5,14 @@
 .bien{
     background-color: green;
 }
+
+
+.formulario{
+    background-color: blanchedalmond;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+        align-content: center;
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

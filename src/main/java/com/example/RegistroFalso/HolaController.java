@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.*;
 public class HolaController {
 
     @PostMapping("/saludo")
-    public String saludo(@RequestParam String nombre, @RequestParam String apellido) {
-        return "<h1>Hola " + nombre + " " + apellido + "</h1>";
+    public String saludo(@RequestParam String nombre, @RequestParam String apellidoP
+            , @RequestParam String apellidoM, @RequestParam String correo) {
+        return "<h1>Hola " + nombre + " " + apellidoP +
+                " " + nombre + " " + correo + "</h1>";
     }
 }
