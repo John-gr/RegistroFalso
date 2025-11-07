@@ -1,13 +1,13 @@
-package com.example.metdodPost;
+package com.example.RegistroFalso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MetdodPostApplication {
+public class RegistroFalsoDemo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MetdodPostApplication.class, args);
+		SpringApplication.run(RegistroFalsoDemo.class, args);
 	}
 
 }

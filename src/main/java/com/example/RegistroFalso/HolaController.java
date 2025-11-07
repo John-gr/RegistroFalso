@@ -1,4 +1,4 @@
-package com.example.metdodPost;
+package com.example.RegistroFalso;
 
 import org.springframework.web.bind.annotation.*;
 
